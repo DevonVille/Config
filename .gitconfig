@@ -1,0 +1,19 @@
+[user]
+  name = Devon Ville
+  email = eladr@codeoasis.com
+
+[init]
+  templatedir = ~/.config/git/templates
+
+[core]
+  editor = nano
+  excludesfile = /git/.gitignore_global
+
+[push]
+  default = simple
+
+[pull]
+  rebase = preserve
+
+[color]
+  ui = true
